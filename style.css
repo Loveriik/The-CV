@@ -1,0 +1,79 @@
+    .head{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/495/609/original/light-green-low-poly-crystal-background-polygon-design-pattern-environment-green-low-poly-illustration-low-polygon-background-free-vector.jpg);
+    color:white;
+    text-align: center;
+    font-family: 'Tai Heritage Pro', serif;
+    border-radius: 20px 20px 20px 20px ;
+    padding-bottom: 4px;
+    align-items:stretch;
+    }
+    iframe{
+        width:900px;
+        height: 650px;
+        display:block;
+        margin:auto;
+    }
+    p{
+        font-family: 'Tai Heritage Pro', serif; 
+    }
+    ul{
+        list-style-type: square;
+    }
+    table,tr,td{
+        border-style: solid;
+        border: width 3px;
+        border-color:black;
+    }
+    table{
+        border-collapse: collapse;
+        margin:auto;
+    }
+    a{
+        color:white;
+    }
+    a:hover{
+        background-color:rgb(27, 117, 0)
+
+    }
+    h1{
+        display:block;
+        margin:0%;
+    }
+    .round{
+        list-style-type: circle;
+    }
+    .main{
+        display:flex;
+        flex-direction:row;
+    }
+    .container{
+        display:flex;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+    .grid{
+        display:grid;
+        grid-template-areas:
+        "head head head"
+        "menu main right"
+        "menu footer footer";
+        gap:5px;
+    }
+    .item1{
+        grid-area:head;
+    }
+    .item2{
+        grid-area:menu;
+    }
+    .item3{
+        grid-area:main;
+    }
+    .item4{
+        grid-area:right;
+    }
+    .item5{
+        grid-area:footer;
+    }
+    .inst{
+        size: 150px;
+    }
